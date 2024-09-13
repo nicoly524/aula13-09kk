@@ -1,10 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+
+    <style>
+        *{
+           /* o asteristico aplica o css em TUDO!!!
+              usamos ele para fazer o reset (limpar)
+              o css padrao do navegador e aplicar um unico.
+            */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;/* define o tamanho do elemeno */
+            line-height: 1.5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p{
+            font-size: 14px;
+            color: #242424;
+
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: bold;
+            color: #0000ff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .container{
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+
+        .card{
+           border: 1px #cccccc solid;
+           padding: 15px;
+           border-radius: 10px;
+           margin: 10px auto;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .tamanho-50{
+            width: 49%;
+            max-width: 49%;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="container">
+     <h1 style="color: #ff0000;">Fatec Jahu - CSS Inline</h1>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut officiis eligendi, delectus explicabo voluptatem nam porro molestias exercitationem, facilis qui nemo magnam, possimus ullam blanditiis maxime enim excepturi corrupti in!</p>
+     <div class="card tamanho-50">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, similique. Atque, sapiente dolore id autem repellat, exercitationem pariatur hic voluptas provident itaque sequi accusantium fugiat vitae nulla? Deleniti, ullam suscipit!
+     </div>
+     <div class="card tamanho-50">jwndwodjweuiodewjoidwidjeidmewmciofewjfenfcjnfweffekwfoewfiojofiodjmckdmkjfkjdoiejf
+     </div>
+   </div>
 </body>
+
 </html>
